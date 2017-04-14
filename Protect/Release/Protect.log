@@ -1,0 +1,29 @@
+﻿生成启动时间为 2016/12/28 9:54:44。
+     1>项目“E:\BCB\sign\Protect\Protect\Protect.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\Protect.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\Protect.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PROTECT_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+     1>dllmain.cpp(205): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
+     1>dllmain.cpp(238): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _stricmp. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(246) : 参见“stricmp”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\BCB\sign\Protect\Release\Protect.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:"dll.def" /MANIFEST /ManifestFile:"Release\Protect.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\BCB\sign\Protect\Release\Protect.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\BCB\sign\Protect\Release\Protect.lib" /MACHINE:X86 /DLL Release\dllmain.obj
+            正在创建库 E:\BCB\sign\Protect\Release\Protect.lib 和对象 E:\BCB\sign\Protect\Release\Protect.exp
+         正在生成代码
+         已完成代码的生成
+         Protect.vcxproj -> E:\BCB\sign\Protect\Release\Protect.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\BCB\sign\Protect\Release\Protect.dll;#2" /manifest Release\Protect.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\Protect.unsuccessfulbuild”。
+         正在对“Release\Protect.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\BCB\sign\Protect\Protect\Protect.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.78
